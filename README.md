@@ -6,7 +6,7 @@ I worked with a dataset containing **717,493 cells** and independently developed
 
 I'm a mathematical physics student, and this project shows how I applied numerical programming to a biological research question: working with a large annotated dataset, translating spatial relationships into quantitative scores, and connecting the outputs of different scientific libraries.
 
-**Start with the [cleaned notebook](MacrophagesAnalysisValidation.cleaned.ipynb) and [selected figures](#selected-figures).** The original research notebook is retained locally and excluded from this repository.
+**Start with the [cleaned notebook](MacrophagesAnalysisValidation.cleaned.ipynb). The original research notebook is retained locally and excluded from this repository.
 
 [My contribution](#what-i-built) · [Analysis](#analysis-in-brief) · [Figures](#selected-figures) · [Limitations](#scientific-scope-and-limitations) · [Code and notebooks](#code-and-notebooks) · [Setup and tests](#run-the-lightweight-tests) · [Data](#data-and-optional-notebook-setup)
 
