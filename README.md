@@ -143,7 +143,7 @@ The notebook expects an AnnData expression matrix with gene names in `var_names`
 
 For authorized future analysis, install the additional dependencies with `python -m pip install -r requirements-notebook.txt`, launch `jupyter lab` from the repository root, and open the cleaned notebook. Configure `DATA_PATH` and `OUTPUT_ROOT` in the first code cell. `RUN_ANALYSIS = True` enables the analysis; `RUN_LR_ANALYSIS = True` separately enables the expensive interaction loop. Leave these disabled when reviewing. If intentionally running selected cells after a guard raises, dependency errors can occur because upstream variables have not been created.
 
-The original kernel metadata records Python **3.11.5** and an environment named `scotia_env`, but no package lockfile was supplied. Dependency ranges describe the refactored code's requirements, not a reconstruction of that environment. The SCOTIA dependency follows its [official upstream installation source](https://github.com/Caochris/SCOTIA); its historical commit is unknown. Full notebook dependency resolution and end-to-end compatibility have not been verified. Recover the internship environment before attempting exact reproduction.
+The original analysis used Python 3.11.5 and the scotia_env environment. The reusable functions have been tested independently, but the complete notebook has not been rerun after refactoring. Reproducing the full analysis may require adjustments to dependency versions, particularly SCOTIA
 
 ## Reuse and provenance
 
