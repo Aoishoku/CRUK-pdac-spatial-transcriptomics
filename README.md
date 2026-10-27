@@ -1,12 +1,13 @@
-# Exploratory Data Analysis of Macrophage in PDAC
+# Macrophage Heterogeneity and Spatial Interactions in PDAC
 
-During my Cancer Research UK internship, I investigated how macrophages differed between treated and untreated pancreatic ductal adenocarcinoma (PDAC) tissue, and how macrophages with a treatment-associated gene signature were positioned relative to other cell types. Spatial transcriptomics made it possible to examine both gene expression and the arrangement of cells within the tissue.
+During my Cancer Research UK internship, I was part of the integrated modelling team lead by Dr. Xiao Fu and I was under the supervision Dr. Jayathilake Pahala Gedara.
+I investigated how macrophages differed between treated and untreated pancreatic ductal adenocarcinoma (PDAC) tissue, and how macrophages with a treatment-associated gene signature were positioned relative to other cell types. Spatial transcriptomics made it possible to examine both gene expression and the arrangement of cells within the tissue.
 
 I worked with a dataset containing **717,493 cells** and independently developed a Python analysis pipeline covering **differential gene expression, spatial proximity and ligand–receptor interactions**. I used Scanpy, LIANA and SCOTIA alongside my own functions for spatial calculations, data preparation and statistical comparisons.
 
 I'm a mathematical physics student, and this project shows how I applied numerical programming to a biological research question: working with a large annotated dataset, translating spatial relationships into quantitative scores, and connecting the outputs of different scientific libraries.
 
-**Start with the [cleaned notebook](MacrophagesAnalysisValidation.cleaned.ipynb). The original research notebook is retained locally and excluded from this repository.
+**Start with the [cleaned notebook](MacrophagesAnalysisValidation.cleaned.ipynb)**. The original research notebook is retained locally and excluded from this repository.
 
 [My contribution](#what-i-built) · [Analysis](#analysis-in-brief) · [Figures](#selected-figures) · [Limitations](#scientific-scope-and-limitations) · [Code and notebooks](#code-and-notebooks) · [Setup and tests](#run-the-lightweight-tests) · [Data](#data-and-optional-notebook-setup)
 
@@ -144,6 +145,11 @@ The notebook expects an AnnData expression matrix with gene names in `var_names`
 For authorized future analysis, install the additional dependencies with `python -m pip install -r requirements-notebook.txt`, launch `jupyter lab` from the repository root, and open the cleaned notebook. Configure `DATA_PATH` and `OUTPUT_ROOT` in the first code cell. `RUN_ANALYSIS = True` enables the analysis; `RUN_LR_ANALYSIS = True` separately enables the expensive interaction loop. Leave these disabled when reviewing. If intentionally running selected cells after a guard raises, dependency errors can occur because upstream variables have not been created.
 
 The original analysis used Python 3.11.5 and the scotia_env environment. The reusable functions have been tested independently, but the complete notebook has not been rerun after refactoring. Reproducing the full analysis may require adjustments to dependency versions, particularly SCOTIA
+
+##Acknowledgements
+I want to thank all the members of Xiao's Integrative Modelling Lab: Dr Jayathilake Pahala Gedara, Dr Luciana Luque, Dr Philip Liu, PhD student Anh Nguyen Phuong. I would also like to thank Alex Young (Ed Roberts lab) and Dr Abigail Elliot (Jen Morton lab).
+
+The analysis pipeline and custom Python code were developed independently, using the published spatial transcriptomics dataset and existing scientific libraries acknowledged above.
 
 ## Reuse and provenance
 
