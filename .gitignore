@@ -1,0 +1,16 @@
+# Research datasets (at any directory depth)
+*.h5ad
+
+# Original research record: retained locally, not published
+MacrophagesAnalysisValidation.working.ipynb
+
+# Generated analysis results
+LigandReceptor_Analysis_Output/
+
+# Local Python and notebook files
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store

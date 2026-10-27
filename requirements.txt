@@ -1,0 +1,6 @@
+# Lightweight helpers and synthetic tests; not the historical analysis environment.
+numpy>=1.26,<3
+pandas>=2.2,<3
+# Keep the original distance_matrix API (scheduled for removal in SciPy 1.20).
+scipy>=1.12,<1.20
+statsmodels>=0.14,<0.15
