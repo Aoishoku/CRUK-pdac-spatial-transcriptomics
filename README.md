@@ -49,7 +49,7 @@ Proximity scores from signature-selected macrophages to eight cell types, split 
 
 ![Original SCOTIA comparison of the INS–IGF1R candidate in the macrophage–endothelial analysis](figures/ligand-receptor-endothelial.png)
 
-The INS–IGF1R candidate in the macrophage–endothelial comparison, retained at the notebook's adjusted p < 0.05 threshold. The bar shows the log2 ratio of mean detected-field-of-view SCOTIA likelihoods in treated versus untreated tissue. It represents a predicted interaction score, subject to the limitations below.
+Example SCOTIA output comparing predicted INS–IGF1R interaction scores between treated and untreated tissue. Results are exploratory; the original FOV-level comparisons do not account for patient-level dependence.
 
 ## Scientific scope and limitations
 
