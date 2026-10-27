@@ -1,4 +1,4 @@
-# Macrophage heterogeneity and spatial interactions in PDAC
+# Exploratory Data Analysis of Macrophage in PDAC
 
 During my Cancer Research UK internship, I investigated how macrophages differed between treated and untreated pancreatic ductal adenocarcinoma (PDAC) tissue, and how macrophages with a treatment-associated gene signature were positioned relative to other cell types. Spatial transcriptomics made it possible to examine both gene expression and the arrangement of cells within the tissue.
 
