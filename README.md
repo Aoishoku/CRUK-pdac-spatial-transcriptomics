@@ -60,8 +60,7 @@ This is an exploratory analysis. The notebook's “Antigen signature presenting 
 
 - [Cleaned working notebook](MacrophagesAnalysisValidation.cleaned.ipynb): the published, output-free copy using the reusable helpers. Both execution flags default to `False`. The original notebook and its full saved outputs stay on my Mac.
 - [Reusable Python code](pdac_macrophages): matrix preparation, spatial scoring, IQR filtering and ligand–receptor result handling.
-- [Technical and scientific review](docs/REVIEW.md): known issues, preserved choices and the mapping between helpers and original notebook cells.
-- [Change and validation record](docs/CHANGELOG.md): the files and checks from the later refactor, including 21 passing tests that run without the original notebook or dataset.
+- [Technical notes](docs/REVIEW.md): numerical implementation, scientific limitations, known issues and reproducibility.
 
 ## Project layout
 
@@ -77,7 +76,6 @@ tests/test_helpers.py                     # self-contained synthetic and noteboo
 requirements.txt                          # lightweight helper dependencies
 requirements-notebook.txt                 # optional analysis dependencies
 docs/REVIEW.md
-docs/CHANGELOG.md
 .gitignore
 ```
 
