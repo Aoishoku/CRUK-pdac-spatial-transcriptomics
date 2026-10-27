@@ -55,8 +55,6 @@ Example SCOTIA output comparing predicted INS–IGF1R interaction scores between
 
 This is an exploratory analysis. The notebook's “Antigen signature presenting macrophages” label describes cells selected by a treatment-associated expression score; it is not an independently validated cell identity. Cells and fields of view from the same biological sample may not be independent observations, which limits the interpretation of the reported p-values. Inferred ligand–receptor interactions are predictions, not direct evidence of signaling or a causal treatment effect.
 
-The original statistical choices and outputs are preserved, including known issues such as mean-proximity tests reusing the median-based assumption checks. The cleaned notebook has not been executed after refactoring. The detailed [technical and scientific review](docs/REVIEW.md) explains these limitations and the checks needed before further analysis.
-
 ## Code and notebooks
 
 - [Cleaned working notebook](MacrophagesAnalysisValidation.cleaned.ipynb): the published, output-free copy using the reusable helpers. Both execution flags default to `False`. The original notebook and its full saved outputs stay on my Mac.
